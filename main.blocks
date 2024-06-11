@@ -1,4 +1,10 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="+v=$cFq:XNL2A}6*DcMS" x="403" y="-24"><statement name="HANDLER"><block type="basic_show_icon" id="hEQ1Yex?N.h4pA|;=Q~i"><field name="i">IconNames.Heart</field><next><block type="device_show_leds" id="m7x_Ve`7uR@CnCavjP+B"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="gSl5@qG)k9:#a27Q($e{">листа</variable></variables><block type="device_button_event" id="b}iNUexMadLqD5Yr;L(U" x="12" y="-354"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="m!=zhmjyvk~rq`08IXj^"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . # # # .
+        `</field></block></statement></block><block type="device_forever" id="+v=$cFq:XNL2A}6*DcMS" x="379" y="-367"><statement name="HANDLER"><block type="basic_show_icon" id="hEQ1Yex?N.h4pA|;=Q~i"><field name="i">IconNames.Heart</field><next><block type="device_show_leds" id="m7x_Ve`7uR@CnCavjP+B"><field name="LEDS">`
         . # # . . 
         # # # # . 
         . # # # # 
@@ -16,13 +22,7 @@
         # # # # . 
         . # # # # 
         . . # # .
-        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="b}iNUexMadLqD5Yr;L(U" x="0" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="m!=zhmjyvk~rq`08IXj^"><field name="LEDS">`
-        . . . . . 
-        . # . # . 
-        . . . . . 
-        . # . # . 
-        . # # # .
-        `</field></block></statement></block><block type="device_button_event" id="Ex.a#{@!mr5ki3W{)V}`" x="741" y="56"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="C(ETRdkJDCi82lmgp||l"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="Ex.a#{@!mr5ki3W{)V}`" x="661" y="-367"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="C(ETRdkJDCi82lmgp||l"><field name="LEDS">`
         . . . . . 
         . # . # . 
         . . . . . 
